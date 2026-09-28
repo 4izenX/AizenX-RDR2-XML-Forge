@@ -1,0 +1,19 @@
+AizenX v1.0.1 - RDR2 conversion test
+
+Archive Mode - tested against installed Red Dead Redemption 2 archives:
+PASS  meta_base_player.yft -> XML
+PASS  player_zero_head_002.ydd -> XML
+PASS  player_zero_headbald_000_c0_000_m.ytd -> XML
+PASS  player_zero.ymt -> XML
+Result: 4 exported, 0 failed.
+
+Loose RDR2 File Mode - tested using clean standalone files freshly exported from the game archives:
+PASS  meta_base_player.yft -> XML
+PASS  player_zero_head_002.ydd -> XML
+PASS  player_zero_headbald_000_c0_000_m.ytd -> XML
+Result: 3 exported, 0 failed.
+
+Important:
+Older files in the local aiuthyr work folder failed local conversion because their payloads are malformed/incompatible with the exporter. This is why AizenX recommends Archive Mode for vanilla game assets and labels Loose Mode for clean standalone RDR2 resources.
+
+No GTA files were used in these tests.
